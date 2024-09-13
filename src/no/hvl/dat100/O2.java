@@ -6,7 +6,7 @@ import static java.lang.Double.*;
 public class O2 {
 	
 	
-public static void main(String[] args) {
+	public static void main(String[] args) {
 		
 		final int[] trinn = {208050, 292850, 670000, 937900, 1350000};
 		final double[] prosenter = {0.0, 1.7, 9.0, 13.6, 16.6, 17.6};
