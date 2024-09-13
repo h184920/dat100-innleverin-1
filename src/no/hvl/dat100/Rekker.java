@@ -1,6 +1,6 @@
 package no.hvl.dat100;
 
-public class mineRekker {
+public class Rekker {
 
 	public static void main(String[] args) {}
 	
