@@ -1,8 +1,23 @@
 package no.hvl.dat100;
 
+import static javax.swing.JOptionPane.*;
+import static java.lang.Integer.*;
+
 public class Rekker {
 
-	public static void main(String[] args) {}
+	public static void main(String[] args) {
+		
+		int n, t = 0;
+		do {
+			if (t == 5) {
+				System.out.println();
+				t = 0;
+			}
+			n = parseInt(showInputDialog(null, "n: "));
+			System.out.print("+" + tn(n) + " = " + tnS(n) + "\n");
+			t++;
+		} while (n != 0);
+	}
 	
 	public static int nFak(int n) {
 		
